@@ -1,10 +1,4 @@
-#Escribe la frase "hola Linux" dentro del archivo llamado
-echo "hola Linux" > archivo.txt
-#Muestra el contenido completo del archivo archivo.txt en la terminal.
-cat archivo.txt
-#Copia el archivo original archivo.txt y crea un duplicado llamado copia.txt
-cp archivo.txt copia.txt
-#Lista los archivos y directorios del lugar actual.
-ls -l
-#Borra de forma permanente el archivo archivo.txt del sistema
-rm archivo.txt
+#Filtra la lista de todos los procesos en ejecucion
+ps aux | grep ssh
+#lista de manera detallada el contenido, y el k5 los ordena en una columna 5
+ls -l | sort -k5
